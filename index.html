@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="javacsripts" href="scripts.js">
+        <script src="https://kit.fontawesome.com/841d304b75.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo.png.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>C++ Programmer</h1>
+            <h1>Hi, I'm<span>Nabhendu</span><br>Jana from Kharagpur.........</h1>
+        </div>
+    </div>
+  </div>
+  <!------------------about----------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/my3.png.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Nabhendu jana from Kharagpur.I'm currently pursuing Diploma In Computer Science And Engineering at Brainware University. As a Computer Science And Engineering student I'm looking forward for my first work experince. I'm a Competitive Coder(Beginner Level).</p>
+           <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>C++ Programmer</span><br>Softwer Development</li>
+                <li><span>Web Development</span><br>Web app Development</li>
+                <li><span>App Development</span><br>Building Android/IOS apps</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>01.05.2024 - 01.06.2024</span><br>C++ Programmer Intern at CodeAlpha</li>
+                <li><span>01.05.2024 - 01.06.2024</span><br>C++ Programmer Intern at Pinnacle Labs</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+           <ul>
+            <li><span>2022 - Present</span><br>Diploma in CSE at Brainware University</li>
+                <li><span>2020 - 2022</span><br>K.D.P Lal Bahadur Sastri Vidya Pith H.S(12th,Bio-Science-A+)</li>
+                <li><span>2019 - 2020</span><br>K.D.P Lal Bahadur Sastri Vidya Pith H.S(10th-A+)</li>
+           </ul>
+           </div>
+        </div>
+     </div>
+    </div>
+  </div>
+<!------------------services--------------->
+<div id="services">
+    <div class="container">
+     <h1 class="sub-title">My Services</h1>
+     <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>C++ Programmer</h2>
+            <p>C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off. Design and programming are human activities; forget that and all is lost.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-code-compare"></i>
+            <h2>Web Development</h2>
+            <p>Great web design without functionality is like a sports car with no engine. The best designs are those that are so intuitive and user-friendly that they disappear into the background</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-codepen"></i>
+            <h2>App Development</h2>
+            <p>A software development quote is a formal document that outlines the estimated cost, scope, and timeline for a specific software project.</p>
+            <a href="#">Learn more</a>
+        </div>
+     </div>
+    </div>
+</div>
+<!------------Portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+       <h1 class="sub-title">My Work</h1> 
+       <div class="work-list">
+        <div class="work">
+        <img src="image/work-1.png">
+        <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you yo the talented people around thhe world. Download it from play store</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="image/work-2.png">
+        <div class="layer">
+            <h3>Music App</h3>
+            <p>The app connects you yo the talented people around thhe world. Download it from play store</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="image/work-3.png">
+        <div class="layer">
+            <h3>Online shopping App</h3>
+            <p>The app connects you yo the talented people around thhe world. Download it from play store</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+        </div>
+       </div>
+       <a href="https://linktr.ee/nabhendu" class="btn">See More</a>
+    </div>
+</div>
+<!---------------------Contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+             <h1 classs="sub-title">Contact Me</h1>
+             <P><i class="fa-solid fa-envelope"></i>nabhenduj@gmail.com</P>
+             <p><i class="fa-solid fa-phone"></i>9874053862</p>
+             <div class="social-icons">
+                <a href="https://www.linkedin.com/in/nabhendu-jana-3317b4290/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/nabhendu.jana.571s"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/nabhendu571s/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.codechef.com/users/nabhendu_jana"><i class="fa-solid fa-code-branch"></i></a>
+                <a href="https://codeforces.com/profile/Nabhendu_Jana"><i class="fa-solid fa-code"></i></a>
+                <a href="https://github.com/nabhendu571s"><i class="fa-brands fa-github"></i></a>
+                <a href="https://leetcode.com/u/nabhendus571/"><i class="fa-solid fa-code-fork"></i></a>
+            </div>
+            <a href="image/Nabhendu.Jana.cv.resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+             <form>
+                <input type="text" name="Name" palceholder="Your Name"required>
+                <input type="email" name="Email" placeholder="Your Email"required>
+                <textarea name="Message" row="6" placeholder="Your Message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+             </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Nabhendu Jana (ns) made with<i class="fa-solid fa-heart"></i> by Easy Coding</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+   var sidemeu = document.getElementById("sidemenu");
+   function openmenu(){
+      sidemeu.style.right = "0";
+   }
+   function closemenu(){
+      sidemeu.style.right = "-200px";
+   }
+</script>
+    </body>
+</html>
